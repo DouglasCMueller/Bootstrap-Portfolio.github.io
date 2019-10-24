@@ -9,6 +9,7 @@ body {
   border: solid 1px lightgray;
 }
 .navbar-light .navbar-brand {
+
   background: #4aaaa5;
   color: #ffffff;
   font-size: 25px;
@@ -79,5 +80,5 @@ footer h5 {
     display: inline-block;  
     margin: auto;
     padding: none;
-    
-  
+  }
+  }
