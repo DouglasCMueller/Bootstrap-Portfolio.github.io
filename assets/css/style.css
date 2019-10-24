@@ -27,9 +27,12 @@ p {
   color: gray;
   line-height: 2;
 }
+
 .page-header {
   padding-top: 10px;
 }
+
+
 .card-image-top{
   width: 150px;
   height: 150px;
