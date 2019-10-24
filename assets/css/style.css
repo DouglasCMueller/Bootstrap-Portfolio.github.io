@@ -14,7 +14,7 @@ body {
   color: #ffffff;
   font-size: 25px;
   padding: 30px;
-  margin-left: 125px;
+  margin-left: 165px;
 } 
 h1 {
   color: #4aaaa5;
@@ -23,6 +23,7 @@ h1 {
 body h1 {
   color: #4aaaa5;
 }
+
 p {
   color: gray;
   line-height: 2;
@@ -31,7 +32,9 @@ p {
 .page-header {
   padding-top: 10px;
 }
-
+.col-sm-4{
+  padding: 20px;
+}
 
 .card-image-top{
   width: 150px;
