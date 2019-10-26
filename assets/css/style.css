@@ -13,7 +13,7 @@ body {
   background: #4aaaa5;
   color: #ffffff;
   font-size: 25px;
-  padding: 30px;
+  padding: 25px;
   margin-left: 165px;
 } 
 h1 {
@@ -73,6 +73,7 @@ footer h5 {
     margin: auto;
     max-width: 100%;
     float: none;
+    padding: 25px;
  
   } 
   .navbar-expand-md {
