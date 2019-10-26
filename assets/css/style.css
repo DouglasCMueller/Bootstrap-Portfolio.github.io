@@ -5,7 +5,7 @@ body {
   background-image: url("../images/criss-cross.png");
 }
 .navbar-expand-md {
-  margin-top: 10px;
+  margin-top: 1%;
   border: solid 1px lightgray;
 }
 .navbar-light .navbar-brand {
@@ -13,7 +13,7 @@ body {
   background: #4aaaa5;
   color: #ffffff;
   font-size: 25px;
-  padding: 25px;
+  padding: 2%;
   margin-left: 11%;
 } 
 h1 {
@@ -27,13 +27,17 @@ body h1 {
 p {
   color: gray;
   line-height: 2;
+  padding: 0 5%;
 }
 
 .page-header {
-  padding-top: 10px;
+  padding-top: 1%;
 }
-.col-sm-4{
-  padding: 20px;
+.row .col-sm-4{
+  padding: 0 5%;
+}
+.row .col-sm-8{
+  padding: 0 5%;
 }
 
 .card-image-top{
@@ -109,6 +113,13 @@ footer h5 {
   padding: 25px;
   margin: 0;
 } 
+.col-sm-4{
+  padding: 0 5%;
+}
+.col-sm-8{
+  padding: 0 5%;
+}
+}
 }
 
 @media screen and (max-width: 640px) {
@@ -150,5 +161,10 @@ footer h5 {
   padding: 25px;
   margin: 0;
 } 
+.col-sm-4{
+  padding: 0 5%;
+}
+.col-sm-8{
+  padding: 0 5%;
+}
   }
-  
