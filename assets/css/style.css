@@ -14,7 +14,7 @@ body {
   color: #ffffff;
   font-size: 25px;
   padding: 25px;
-  margin-left: 165px;
+  margin-left: 11%;
 } 
 h1 {
   color: #4aaaa5;
@@ -67,15 +67,64 @@ footer h5 {
   color: #ffffff;
   text-align: center;
 }
+@media screen and (max-width: 980px) {
+  .Main-Content {
+    text-align: left;
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;     
+  }
+@media screen and (max-width: 768px) {
+.navbar-light .navbar-brand {
+  margin: 0;
+  width: 100%;
+  float: none;
+  padding: 0;
+  text-align: left;
+} 
+.navbar-expand-md {
+  max-width: 100%;
+  margin: auto;
+  float: none;
+}
+
+.nav-item .nav-link {
+  list-style-type: none;
+  display: inline-block;  
+  margin: auto;
+  padding: none;
+;
+}
+.navbar-nav.ml-auto {
+  display: inline-block;
+  float: none;
+}
+.navbar-light .navbar-brand {
+
+  background: #4aaaa5;
+  color: blue;
+  font-size: 25px;
+  padding: 25px;
+  margin: 0;
+} 
+}
+
 @media screen and (max-width: 640px) {
  
   .navbar-light .navbar-brand {
-    margin: auto;
-    max-width: 100%;
+    margin: 0;
+    color: blue;
+
+    width: 100%;
     float: none;
-    padding: 25px;
- 
+    padding: 0;
+    text-align: center;
   } 
+  a.navbar-brand {
+    color: blue;
+  }
   .navbar-expand-md {
     max-width: 100%;
     margin: auto;
@@ -93,5 +142,13 @@ footer h5 {
     display: inline-block;
     float: none;
   }
+.navbar-light .navbar-brand {
+
+  background: #4aaaa5;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 25px;
+  margin: 0;
+} 
   }
   
