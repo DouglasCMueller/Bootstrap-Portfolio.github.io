@@ -81,10 +81,16 @@ footer h5 {
     float: none;
   }
   
-  .nav-item.nav-link {
+  .nav-item .nav-link {
     list-style-type: none;
     display: inline-block;  
     margin: auto;
     padding: none;
+  color: blue;
+  }
+  .navbar-nav.ml-auto {
+    display: inline-block;
+    float: none;
   }
   }
+  
